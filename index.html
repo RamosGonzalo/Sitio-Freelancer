@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseñador Freelancer</title>
+    <link rel="preload" href="css/normalize.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/main.css" as="style">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Gonzalo Ramos <span>Freelancer</span></h1>
+    </header>
+
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="#">Inicio</a>
+            <a href="#">Sobre Mi</a>
+            <a href="#">Clientes</a>
+            <a href="#">Contactos</a>
+        </nav>
+    </div>
+
+    <section class="hero">
+        <div class="contenido-hero">
+            <h2>Diseño y Desarrollo Web Freelancer</h2>
+            <div class="ubicacion">
+                <p><ion-icon name="locate-outline" size="large" id="ubicacion"></ion-icon></p>
+                <p>Buenos Aires, Argentina</p>
+            </div>
+            
+            <a class="boton" href="#">Contactar</a>
+        </div> <!-- .contenido-hero -->
+    </section>
+
+
+    <main class="contenedor sombra">
+        <h2>Mis Servicios</h2>
+        
+        <div class="servicios">
+            <section class="servicio">
+                
+                <h3>Diseño Web</h3>
+                <div class="iconos">
+                    <ion-icon name="desktop"></ion-icon>
+                </div>
+                <p>Nulla auctor diam quis purus placerat iaculis. 
+                Aenean pellentesque lectus sit amet porttitor scelerisque.
+                Pellentesque at accumsan metus.</p>
+            </section>
+                
+                <section class="servicio">
+                    <h3>Aplicaciones Móviles</h3>
+                    <div class="iconos">
+                        <ion-icon name="logo-android"></ion-icon>
+                        <ion-icon name="logo-apple"></ion-icon>
+                    </div>
+                    <p>Mauris accumsan luctus dui sit amet dignissim. 
+                    Vestibulum maximus magna urna, nec scelerisque nisi maximus eu. 
+                    Praesent nibh elit, semper gravida erat eget</p>
+                </section>
+                
+            <section class="servicio">
+                <h3>E-commerce</h3>
+                <div class="iconos">
+                    <ion-icon name="card"></ion-icon>
+                </div>
+                <p>Suspendisse potenti. Nulla commodo a urna id congue. 
+                Duis malesuada turpis scelerisque tellus imperdiet blandit. 
+                Nullam orci urna, scelerisque eget nulla sed, gravida tristique urna.</p>
+            </section>
+        </div>
+
+        <section>
+            <h2>Contacto</h2>
+
+            <form class="formulario">
+                <fieldset>
+                    <legend>Contactános llenando todos los campos</legend>
+                    
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label>Nombre</label>
+                            <input class="input-text" type="text" placeholder="Nombre">
+                        </div>
+                        
+                        <div class="campo">
+                            <label>Teléfono</label>
+                            <input class="input-text" type="tel" placeholder="Tu Teléfono">
+                        </div>
+                        
+                        <div class="campo">
+                            <label>Correo</label>
+                            <input class="input-text" type="email" placeholder="Tu Email">
+                        </div>
+                        
+                        <div class="campo">
+                            <label>Mensaje:</label>
+                            <textarea class="input-text"></textarea>
+                        </div>
+                    </div> <!-- .contenedor-campos -->
+                        
+                    <div class="alinear-derecha flex">
+                        <input class="boton w-sm-100" type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Todos los derechos reservados. Gonzalo Ramos Freelancer</p>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</body>
+</html>
