@@ -1,6 +1,8 @@
 # Diseñador Freelancer
 
-Este es un sitio web de un Diseñador Freelancer, desarrollado con HTML y CSS. Es un proyecto responsive y semántico, enfocado en brindar información sobre servicios de diseño web, desarrollo de aplicaciones móviles y comercio electrónico. Este proyecto fue realizado como parte del Curso de Desarrollo Web Completo de Juan Pablo de la Torre Valdez en Udemy. Agradezco todo el conocimiento compartido en el curso, que me permitió desarrollar este sitio web.
+Este es un sitio web de un Diseñador Freelancer, desarrollado con HTML y CSS. Es un proyecto responsive y semántico, enfocado en brindar información sobre servicios de diseño web, desarrollo de aplicaciones móviles y comercio electrónico.
+
+> 📚 Este proyecto fue desarrollado como parte del curso **Desarrollo Web Completo** de **Juan Pablo de la Torre Valdez** en **Udemy**.
 
 ## Características
 - **HTML5 y CSS3**: Uso de etiquetas semánticas para mejorar la accesibilidad y el SEO.
